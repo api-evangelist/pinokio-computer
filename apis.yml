@@ -1,0 +1,94 @@
+aid: pinokio-computer
+name: Pinokio
+description: >-
+  Pinokio is an open-source desktop application — self-described as an "AI
+  Browser" — that acts as a 1-click launcher for any open-source AI project.
+  Built by independent developer Cocktail Peanut (cocktailpeanut), Pinokio
+  packages a terminal, package managers (Conda, Homebrew, Pip, NPM), and a
+  graphical UI into a single MIT-licensed desktop app for macOS, Windows, and
+  Linux with NVIDIA, AMD, and Apple Silicon GPU support. Users install AI apps
+  with one click from a curated "Discover" directory of 160+ vetted scripts
+  spanning image generation, video generation, text-to-speech and voice
+  cloning, large language models, 3D generation, music and audio generation,
+  and face swap. Pinokio is driven by a JSON-based scripting language designed
+  to be both human and machine readable, with primitives like shell.run, fs,
+  input, log, jump, hf (Hugging Face), notify, browser, and json that let
+  publishers describe install and launch flows declaratively. Each script is
+  sandboxed under ~/pinokio with isolated paths and Python virtual
+  environments, and featured scripts must transfer ownership to the Pinokio
+  Factory GitHub organization for admin review. Pinokio is purely client-side
+  open source — there is no public REST API, no hosted commercial offering,
+  and no developer SDK beyond the local script syntax and the desktop app
+  itself.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI Launcher
+  - AI Browser
+  - Local AI
+  - Open Source
+  - Desktop Application
+  - Script Runner
+  - One-Click Install
+  - Image Generation
+  - Video Generation
+  - Large Language Models
+  - Text To Speech
+  - Voice Cloning
+  - Hugging Face
+  - Llama
+  - Discover Directory
+  - JSON Scripting
+url: https://raw.githubusercontent.com/api-evangelist/pinokio-computer/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://pinokio.co
+  - type: LegacyWebsite
+    url: https://pinokio.computer
+  - type: Download
+    url: https://desktop.pinokio.co
+  - type: Documentation
+    url: https://program.pinokio.computer
+  - type: LegacyDocumentation
+    url: https://docs.pinokio.computer
+  - type: GitHub
+    url: https://github.com/pinokiocomputer
+  - type: SourceCode
+    url: https://github.com/pinokiocomputer/pinokio
+  - type: Releases
+    url: https://github.com/pinokiocomputer/pinokio/releases
+  - type: ScriptDirectory
+    url: https://pinokio.co/discover
+  - type: ScriptPolicy
+    url: https://github.com/pinokiocomputer/pinokio#script-policy
+  - type: Backend
+    url: https://github.com/pinokiocomputer/pinokiod
+  - type: SystemProgramming
+    url: https://github.com/pinokiocomputer/psp
+  - type: LlamaProxy
+    url: https://github.com/pinokiocomputer/llamanet
+  - type: Gepeto
+    url: https://github.com/pinokiocomputer/gepeto
+  - type: Factory
+    url: https://github.com/pinokiocomputer/factory
+  - type: ProgramDocsRepo
+    url: https://github.com/pinokiocomputer/program.pinokio.computer
+  - type: License
+    url: https://github.com/pinokiocomputer/pinokio/blob/main/LICENSE
+  - type: Privacy
+    url: https://pinokio.co/privacy
+  - type: TermsOfService
+    url: https://pinokio.co/terms
+  - type: Twitter
+    url: https://x.com/cocktailpeanut
+  - type: MaintainerTwitter
+    url: https://twitter.com/cocktailpeanut
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
