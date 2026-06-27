@@ -61,7 +61,7 @@ common:
     url: https://github.com/pinokiocomputer
   - type: SourceCode
     url: https://github.com/pinokiocomputer/pinokio
-  - type: Releases
+  - type: ReleaseNotes
     url: https://github.com/pinokiocomputer/pinokio/releases
   - type: ScriptDirectory
     url: https://pinokio.co/discover
