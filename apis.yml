@@ -22,16 +22,21 @@ description: >-
   itself.
 type: Index
 deliveryModel:
-  model: unknown
-  open_source: unknown
+  model: open-core
+  license: MIT
+  license_evidence:
+    repo: pinokiocomputer/pinokio
+    spdx: MIT
+    stars: 8156
+  open_source: true
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
-  confidence: low
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: medium
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-license
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -51,11 +56,11 @@ tags:
   - AI Launcher
   - AI Browser
   - Local AI
-  - Open-Source
+  - Open Source
   - Desktop Application
   - Script Runner
   - One-Click Install
-  - Image-Generation
+  - Image Generation
   - Video Generation
   - LLM
   - Text-to-Speech
@@ -81,6 +86,8 @@ tags_raw:
   - Llama
   - Discover Directory
   - JSON Scripting
+  - Open-Source
+  - Image-Generation
 url: https://raw.githubusercontent.com/api-evangelist/pinokio-computer/refs/heads/main/apis.yml
 created: '2026-05-25'
 modified: '2026-05-25'
