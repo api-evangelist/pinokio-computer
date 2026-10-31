@@ -1,4 +1,4 @@
-# pinokio-computer
+# Pinokio
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pinokio — open-source AI browser/launcher for running AI apps locally (MIT, macOS/Windows/Linux)
+Pinokio is an open-source desktop application — self-described as an "AI Browser" — that acts as a 1-click launcher for any open-source AI project. Built by independent developer Cocktail Peanut (cocktailpeanut), Pinokio packages a terminal, package managers (Conda, Homebrew, Pip, NPM), and a graphical UI into a single MIT-licensed desktop app for macOS, Windows, and Linux with NVIDIA, AMD, and Apple Silicon GPU support. Users install AI apps with one click from a curated "Discover" directory of 160+ vetted scripts spanning image generation, video generation, text-to-speech and voice cloning, large language models, 3D generation, music and audio generation, and face swap. Pinokio is driven by a JSON-based scripting language designed to be both human and machine readable, with primitives like shell.run, fs, input, log, jump, hf (Hugging Face), notify, browser, and json that let publishers describe install and launch flows declaratively. Each script is sandboxed under ~/pinokio with isolated paths and Python virtual environments, and featured scripts must transfer ownership to the Pinokio Factory GitHub organization for admin review. Pinokio is purely client-side open source — there is no public REST API, no hosted commercial offering, and no developer SDK beyond the local script syntax and the desktop app itself.
+
+**Areas:** AI Launcher · AI Browser · Local AI · Open Source · Desktop Application · Script Runner · One-Click Install · Image Generation · Video Generation · LLM · Text-to-Speech · Voice Cloning
+
+## Pinokio on APIs.io
+
+Everything profiled for Pinokio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pinokio-computer/](https://apis.io/providers/pinokio-computer/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pinokio Computer Domain Security](https://apis.io/security/pinokio-computer/pinokio-computer-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pinokio.co)
+- [Documentation](https://program.pinokio.computer)
+- [Terms of service](https://pinokio.co/terms)
+
+## API Evangelist rating
+
+**Kin Score 13.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.3** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pinokio-computer/](https://apis.io/providers/pinokio-computer/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pinokio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pinokio-computer/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
